@@ -1,0 +1,44 @@
+#13 1.507   All projects are up-to-date for restore.
+#13 4.688 /src/Controllers/StartStopController.cs(58,23): warning CS8618: Non-nullable property 'status' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.688 /src/Controllers/StartStopController.cs(72,13): warning CS1717: Assignment made to same variable; did you mean to assign something else? [/src/carbox.csproj]
+#13 4.688 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_carRepository' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.688 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_stationRepository' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.688 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_carService' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.688 /src/Repositories/RideOrderRepository.cs(21,19): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+#13 4.688 /src/Repositories/StationRepository.cs(25,19): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+#13 4.688 /src/Repositories/CarRepository.cs(29,19): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+#13 4.689 /src/Controllers/CarController.cs(118,44): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Services/RideService.cs(51,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Services/RideService.cs(74,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Services/RideService.cs(75,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Services/RideService.cs(75,36): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Repositories/CarRepository.cs(61,24): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+#13 4.689 /src/Services/RideService.cs(108,30): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+#13 4.689 /src/Date/MqttService.cs(143,27): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.689 /src/Date/MqttService.cs(18,40): warning CS0169: The field 'MqttService._carRepository' is never used [/src/carbox.csproj]
+#13 4.689 /src/Date/MqttService.cs(20,37): warning CS0169: The field 'MqttService._carService' is never used [/src/carbox.csproj]
+#13 4.689 /src/Date/MqttService.cs(19,44): warning CS0169: The field 'MqttService._stationRepository' is never used [/src/carbox.csproj]
+#13 ERROR: process "/bin/sh -c dotnet publish -c Release -o /app/publish" did not complete successfully: exit code: 1
+------
+ > [build 6/6] RUN dotnet publish -c Release -o /app/publish:
+4.689 /src/Services/RideService.cs(51,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+4.689 /src/Services/RideService.cs(74,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+4.689 /src/Services/RideService.cs(75,17): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+4.689 /src/Services/RideService.cs(75,36): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+4.689 /src/Repositories/CarRepository.cs(61,24): error CS1061: 'Car' does not contain a definition for 'StopStations' and no accessible extension method 'StopStations' accepting a first argument of type 'Car' could be found (are you missing a using directive or an assembly reference?) [/src/carbox.csproj]
+4.689 /src/Services/RideService.cs(108,30): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+4.689 /src/Date/MqttService.cs(143,27): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+4.689 /src/Date/MqttService.cs(18,40): warning CS0169: The field 'MqttService._carRepository' is never used [/src/carbox.csproj]
+4.689 /src/Date/MqttService.cs(20,37): warning CS0169: The field 'MqttService._carService' is never used [/src/carbox.csproj]
+4.689 /src/Date/MqttService.cs(19,44): warning CS0169: The field 'MqttService._stationRepository' is never used [/src/carbox.csproj]
+------
+Dockerfile:11
+--------------------
+   9 |     # Copy everything else and build
+  10 |     COPY . ./
+  11 | >>> RUN dotnet publish -c Release -o /app/publish
+  12 |     
+  13 |     # Stage 2: Run the application
+--------------------
+error: failed to solve: process "/bin/sh -c dotnet publish -c Release -o /app/publish" did not complete successfully: exit code: 1
+error: exit status 1
