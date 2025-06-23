@@ -11,7 +11,7 @@ builder.Services.AddSingleton<MongoDBService>();
 builder.Services.AddScoped(provider =>
 {
     var mongoDBService = provider.GetRequiredService<MongoDBService>();
-    return mongoDBService.Database;
+    return mongoDBService.Database!;
 });
 
 

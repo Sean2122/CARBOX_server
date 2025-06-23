@@ -1,4 +1,4 @@
-﻿using carbox.Models;
+using carbox.Models;
 using carbox.Repositories;
 using System;
 using System.Threading.Tasks;
@@ -13,7 +13,7 @@ namespace carbox.Services
     {
         private readonly RideOrderRepository _rideOrderRepository; // Database repository for ride orders
         private readonly CarRepository _carRepository; // Database repository for cars
-        private readonly StationRepository _stationRepository;
+        
         private readonly RouteRepository _routeRepository;
         Random rnd = new Random();
 

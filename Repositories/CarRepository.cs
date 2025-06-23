@@ -1,4 +1,4 @@
-﻿using carbox.Date;
+using carbox.Date;
 using carbox.Models;
 using MongoDB.Driver;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ namespace carbox.Repositories
 {
     public class CarRepository
     {
-        private readonly IMongoCollection<Car> _carCollection;
+        private readonly IMongoCollection<Car>? _carCollection;
 
         // Constructor: Initialize MongoDB collection
         public CarRepository(MongoDBService mongoDBService)

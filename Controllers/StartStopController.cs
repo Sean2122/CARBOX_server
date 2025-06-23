@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using carbox.Date;
 using MongoDB.Driver;
@@ -14,7 +14,7 @@ namespace carbox.Controllers
     public class StartStopController : ControllerBase
     {
         //Car car1 = new Car(1, "stop");
-        private readonly IMongoCollection<carboxCollection> cars;
+        private readonly IMongoCollection<carboxCollection>? cars;
 
         public StartStopController(MongoDBService mongoDBService)
         {
@@ -74,6 +74,3 @@ namespace carbox.Controllers
         }
     }
 };
-
-
-

@@ -1,11 +1,11 @@
-﻿namespace carbox.Models
+namespace carbox.Models
 {
     public class RideOrder
     {
         public int Id { get; set; }  // מזהה הזמנה
         public int UserId { get; set; }
-        public Station source { get; set; }
-        public Station Destination { get; set; }
+        public required Station source { get; set; }
+        public required Station Destination { get; set; }
         public DateTime RideTime { get; set; }
         public DateTime CreatedAt { get; set; }
         public RideOrderStatus Status { get; set; } = RideOrderStatus.Open;
