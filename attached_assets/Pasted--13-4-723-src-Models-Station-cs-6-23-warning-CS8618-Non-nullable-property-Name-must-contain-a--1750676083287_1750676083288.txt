@@ -1,0 +1,83 @@
+#13 4.723 /src/Models/Station.cs(6,23): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Station.cs(7,25): warning CS8618: Non-nullable property 'Location' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Controllers/StartStopController.cs(58,23): warning CS8618: Non-nullable property 'status' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Services/RideService.cs(21,16): warning CS8618: Non-nullable field '_stationRepository' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Controllers/StartStopController.cs(72,13): warning CS1717: Assignment made to same variable; did you mean to assign something else? [/src/carbox.csproj]
+#13 4.723 /src/Models/Route.cs(9,23): warning CS8618: Non-nullable property 'Name' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Route.cs(11,24): warning CS8618: Non-nullable property 'ChargingStation' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Route.cs(14,44): warning CS8618: Non-nullable property 'travelTimeMatrix' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/CarRepository.cs(16,30): warning CS8601: Possible null reference assignment. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/CarRepository.cs(14,16): warning CS8618: Non-nullable field '_carCollection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Controllers/StartStopController.cs(21,20): warning CS8601: Possible null reference assignment. [/src/carbox.csproj]
+#13 4.723 /src/Controllers/StartStopController.cs(19,16): warning CS8618: Non-nullable field 'cars' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/StationRepository.cs(15,35): warning CS8601: Possible null reference assignment. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/StationRepository.cs(13,16): warning CS8618: Non-nullable field '_stationsCollection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/RideOrderRepository.cs(15,37): warning CS8601: Possible null reference assignment. [/src/carbox.csproj]
+#13 4.723 /src/Repositories/RideOrderRepository.cs(13,16): warning CS8618: Non-nullable field '_rideOrdersCollection' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Car.cs(6,23): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Car.cs(8,25): warning CS8618: Non-nullable property 'Location' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/Car.cs(11,24): warning CS8618: Non-nullable property 'LastStation' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/RideOrder.cs(7,24): warning CS8618: Non-nullable property 'source' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Models/RideOrder.cs(8,24): warning CS8618: Non-nullable property 'Destination' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_carRepository' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_stationRepository' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.723 /src/Date/MqttService.cs(24,16): warning CS8618: Non-nullable field '_carService' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the field as nullable. [/src/carbox.csproj]
+#13 4.724 /src/Program.cs(11,1): warning CS8634: The type 'MongoDB.Driver.IMongoDatabase?' cannot be used as type parameter 'TService' in the generic type or method 'ServiceCollectionServiceExtensions.AddScoped<TService>(IServiceCollection, Func<IServiceProvider, TService>)'. Nullability of type argument 'MongoDB.Driver.IMongoDatabase?' doesn't match 'class' constraint. [/src/carbox.csproj]
+#13 4.724 /src/Program.cs(11,28): warning CS8621: Nullability of reference types in return type of 'lambda expression' doesn't match the target delegate 'Func<IServiceProvider, IMongoDatabase?>' (possibly because of nullability attributes). [/src/carbox.csproj]
+#13 4.724 /src/Services/RideService.cs(108,30): warning CS8602: Dereference of a possibly null reference. [/src/carbox.csproj]
+#13 4.724 /src/Date/MqttService.cs(143,27): warning CS8618: Non-nullable property 'Id' must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring the property as nullable. [/src/carbox.csproj]
+#13 4.724 /src/Date/MqttService.cs(19,44): warning CS0169: The field 'MqttService._stationRepository' is never used [/src/carbox.csproj]
+#13 4.724 /src/Date/MqttService.cs(20,37): warning CS0169: The field 'MqttService._carService' is never used [/src/carbox.csproj]
+#13 4.724 /src/Date/MqttService.cs(18,40): warning CS0169: The field 'MqttService._carRepository' is never used [/src/carbox.csproj]
+#13 4.724 /src/Services/RideService.cs(16,44): warning CS0169: The field 'RideService._stationRepository' is never used [/src/carbox.csproj]
+#13 4.848   carbox -> /src/bin/Release/net8.0/carbox.dll
+#13 4.896   carbox -> /app/publish/
+#13 DONE 4.9s
+#14 [runtime 3/3] COPY --from=build /app/publish .
+#14 DONE 0.1s
+#15 exporting to docker image format
+#15 exporting layers
+#15 exporting layers 0.3s done
+#15 exporting manifest sha256:3b16ecde2d52ee551650ced803467479f304cb6f0aafdbfcf6072b091d50efc9 done
+#15 exporting config sha256:82825a1d69c93d51287a875812d7a3b7be403f230743d0ac19d9da927fcfad65 done
+#15 DONE 1.3s
+#16 exporting cache to client directory
+#16 preparing build cache for export
+#16 writing cache manifest sha256:f4fb71d4c42c09c48a3c4644096e341687e73949f6a67a6f375c7a0a7221c191 done
+#16 DONE 6.8s
+Pushing image to registry...
+Upload succeeded
+==> Deploying...
+==> No open ports detected, continuing to scan...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+      Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:5000'.
+Error in MQTT service: Error while connecting host 'Unspecified/localhost:1883'.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://0.0.0.0:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /app
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+==> New primary port detected: 5000. Restarting deploy to update network configuration...
+==> Docs on specifying a port: https://render.com/docs/web-services#port-binding
+==> Detected a new open port HTTP:5000
+warn: Microsoft.AspNetCore.Hosting.Diagnostics[15]
+      Overriding HTTP_PORTS '8080' and HTTPS_PORTS ''. Binding to values defined by URLS instead 'http://0.0.0.0:5000'.
+Error in MQTT service: Error while connecting host 'Unspecified/localhost:1883'.
+info: Microsoft.Hosting.Lifetime[14]
+      Now listening on: http://0.0.0.0:5000
+info: Microsoft.Hosting.Lifetime[0]
+      Application started. Press Ctrl+C to shut down.
+info: Microsoft.Hosting.Lifetime[0]
+      Hosting environment: Production
+info: Microsoft.Hosting.Lifetime[0]
+      Content root path: /app
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+==> Your service is live 🎉
+==> Detected a new open port HTTP:5000
