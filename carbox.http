@@ -1,0 +1,41 @@
+
+@carbox_HostAddress = http://localhost:5269
+
+### Get all cars status
+GET {{carbox_HostAddress}}/api/StartStop
+Accept: application/json
+
+### Update car status
+POST {{carbox_HostAddress}}/api/StartStop
+Content-Type: application/json
+
+{
+  "status": "start"
+}
+
+### Get all cars
+GET {{carbox_HostAddress}}/api/Car/available
+Accept: application/json
+
+### Get specific car
+GET {{carbox_HostAddress}}/api/Car/1
+Accept: application/json
+
+### Add new car
+POST {{carbox_HostAddress}}/api/Car/add
+Content-Type: application/json
+
+{
+  "id": "1",
+  "status": 0,
+  "batteryLevel": 100,
+  "lastStation": {
+    "id": 0,
+    "name": "Main Station",
+    "location": {
+      "latitude": 0.0,
+      "longitude": 0.0
+    }
+  },
+  "stopStations": []
+}
