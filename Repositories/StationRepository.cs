@@ -17,7 +17,8 @@ namespace carbox.Repositories
 
         public async Task<List<Station>> GetAllStationsAsync()
         {
-            return await _stationsCollection.Find(_ => true).ToListAsync();
+            var stations = await _stationsCollection.Find(_ => true).ToListAsync();
+            return stations?.ToList() ?? new List<Station>();
         }
 
         public async Task AddStationAsync(Station station)

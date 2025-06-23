@@ -15,9 +15,9 @@ namespace carbox.Services
     {
         private readonly IMqttClient _mqttClient;
         private readonly MqttClientOptions _mqttClientOptions;
-        private readonly CarRepository _carRepository;
-        private readonly StationRepository _stationRepository;
-        private readonly CarService _carService;
+        private readonly CarRepository? _carRepository;
+        private readonly StationRepository? _stationRepository;
+        private readonly CarService? _carService;
 
         private readonly IServiceScopeFactory _serviceScopeFactory;
 
@@ -140,7 +140,7 @@ namespace carbox.Services
 
         public class CarMassage
         {
-            public string Id { get; set; }
+            public required string Id { get; set; }
             public double Latitude { get; set; }
             public double Longitude { get; set; }
             public int LastStationID { get; set; }

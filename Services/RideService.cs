@@ -105,7 +105,7 @@ namespace carbox.Services
 
             // Get the travel time between the last station and pickup station from the time matrix
             var route = (await _routeRepository.GetAllRoutesAsync()).FirstOrDefault();
-            int travelTime = route.GetTravelTime(sortedCars.First().LastStation.Id, rideOrder.source.Id);
+            int travelTime = route?.GetTravelTime(sortedCars.First().LastStation?.Id ?? 0, rideOrder.source.Id) ?? 0;
 
             // Check if the travel time is less than or equal to the maximum allowed time
             if (DateTime.Now.AddMinutes(travelTime) > rideOrder.RideTime)

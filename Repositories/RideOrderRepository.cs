@@ -3,6 +3,7 @@ using carbox.Models;
 using MongoDB.Driver;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using System.Linq;
 
 namespace carbox.Repositories
 {
@@ -30,7 +31,8 @@ namespace carbox.Repositories
         // Retrieves all ride orders
         public async Task<List<RideOrder>> GetAllRidesAsync()
         {
-            return await _rideOrdersCollection.Find(ride => true).ToListAsync();
+            var rideOrders = await _rideOrdersCollection.Find(ride => true).ToListAsync();
+            return rideOrders?.ToList() ?? new List<RideOrder>();
         }
 
         // Updates a ride order (e.g., assigning a car)

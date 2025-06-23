@@ -1,4 +1,3 @@
-
 namespace carbox.Models
 {
     public class Car
@@ -10,6 +9,7 @@ namespace carbox.Models
         public required Station LastStation { get; set; }
         public int RouteId { get; set; }
         public List<ScheduledTrip> ScheduledTrips { get; set; } = new List<ScheduledTrip>(); // רשימת נסיעות מתוזמנות
+        public List<Station> StopStations { get; set; } = new List<Station>();
 
 
         //public int lastStation()
